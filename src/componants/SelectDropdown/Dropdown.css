@@ -1,5 +1,14 @@
+.dropdown-container ul {
+    position: relative;
+
+}
+
 .dropdown-container ul li {
-    padding-bottom: .7rem;
+    padding: .5rem .2rem;
+}
+
+.dropdown-container ul li.active {
+    background: #6bd1a2;
 }
 
 .dropdown-container ul li:hover {
@@ -13,7 +22,7 @@
 }
 
 .dropdown-container::-webkit-scrollbar-thumb {
-    background: #ccc !important;
+    background: #6bd1a2 !important;
     /* width: 10px; */
-        /* z-index: -1; */
+    /* z-index: -1; */
 }
